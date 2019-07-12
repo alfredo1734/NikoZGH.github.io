@@ -1,0 +1,32 @@
+body {background-color:darkmagenta} 
+
+a {
+     color: darkmagenta;
+     background-color:white;
+     text-decoration: none;
+    width: 300px;
+    height: 50px;
+    font-size: 50px;
+    font-family: "Console", Monospace;
+    text-align: center;
+    padding: 20px;
+    
+     }
+h1 {color:white;
+font-size: 50px;
+}
+
+.container {
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.home {
+    flex: 1;
+    border-right: solid 5px black
+}
+
+.Aboutme {
+    flex: 1;
+}
