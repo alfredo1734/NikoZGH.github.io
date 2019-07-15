@@ -1,0 +1,58 @@
+body {
+    background-image: url("background1.jpg");
+}
+
+#firsthead {
+    text-align: left;
+    color: white;
+    margin-top: 50px;
+    font-size: 50px;
+    margin-left: 250px;
+    font-family: "Lucida Console", Times, monospace;
+}
+
+.box {
+    background-image: linear-gradient(to bottom, white, white);
+    width: auto;
+    height: 500px;
+    border-radius: 50px;
+    opacity: 0.8;
+    padding: 20px;
+    margin-left: 250px;
+    margin-right: 250px
+}
+
+.box:hover {
+    opacity: 1.0;
+}
+
+.top {
+    background-color: white;
+    width: autopx;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.background {
+    margin-left: 120px;
+    text-decoration: none;
+    font-size: 40;
+    color: cornflowerblue;
+}
+
+.background:hover {
+    color: blue;
+}
+
+.paragraph1 {
+    font-size: 40px;
+}
+
+.head {
+    display: flex;
+}
+
+.grid-container {
+    display: grid;
+    
+}

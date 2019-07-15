@@ -1,0 +1,55 @@
+.top {
+    background-color: white;
+    width: autopx;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.background {
+    margin-left: 120px;
+    text-decoration: none;
+    font-size: 40;
+    color: cornflowerblue;
+}
+
+body {
+    background-image: linear-gradient(to bottom, cornflowerblue, white)
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.garfield {
+    vertical-align: middle;
+    margin: auto;
+    border: solid 5px purple;
+    border-radius: 1000px;
+}
+
+.victor {
+    vertical-align: middle;
+    margin: auto;
+    border: solid 5px black;
+    border-radius: 1000px;
+}
+
+span {
+    font-size: 30px;
+}
+
+.person {
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 50px; 
+    margin-right: 50px;
+    height: 500px;
+}
+
+.person:hover {
+    box-shadow: 5px 5px;
+}
+
+.inner {
+    margin-left: 250;
+}
