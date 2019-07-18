@@ -1,0 +1,43 @@
+body {
+    background-image: linear-gradient(to bottom, cornflowerblue, black)
+}
+
+.top {
+    background-color: white;
+    width: autopx;
+    height: 50px;
+}
+
+.background {
+    margin-left: 120px;
+    text-decoration: none;
+    font-size: 40;
+    color: cornflowerblue;
+}
+
+.background:hover {
+    color: blue;
+}
+
+.image {
+    margin-top: 10px;
+    height: 50%;
+    width: 50%;
+    border: solid 2px black;
+}
+
+span {
+    font-size: 40px;
+    margin-top: 100px;
+    color: cornflowerblue;
+}
+
+.el-box {
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 10px;
+    padding: 20px;
+    margin-left: 650px
+}
+
+html, body { margin: 0; padding: 0; } 
