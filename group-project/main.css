@@ -1,0 +1,77 @@
+body {
+    background-image: url("wellness1745.jpg");
+}
+
+#firsthead {
+    text-align: left;
+    color: white;
+    margin-top: 50px;
+    font-size: 50px;
+    margin-left: 250px;
+    font-family: "Lucida Console", Times, monospace;
+}
+
+.box {
+    background-image: linear-gradient(to bottom, white, white);
+    width: auto;
+    height: 550px;
+    border-radius: 50px;
+    opacity: 0.8;
+    padding-bottom: 20px;
+    padding-top: 1px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.box:hover {
+    opacity: 1.0;
+}
+
+.top {
+    background-color: white;
+    width: autopx;
+    height: 50px;
+}
+
+.background {
+    margin-left: 120px;
+    text-decoration: none;
+    font-size: 40;
+    color: cornflowerblue;
+}
+
+.background:hover {
+    color: blue;
+}
+
+.paragraph1 {
+    font-size: 40px;
+}
+
+.head {
+    display: flex;
+}
+
+.grid-container {
+    display: grid;
+    }
+
+.bib {
+    background-color: white;
+    height: 100px;
+    margin-top: 50px;
+}
+
+html, body { margin: 0; padding: 0; } 
+
+.site {
+    color: cornflowerblue;
+    margin-left: 20px;
+    margin-bottom: 0px
+}
+
+.bibite {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
