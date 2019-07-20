@@ -1,3 +1,7 @@
+html {
+    font-family: 'Lilita One', cursive;
+}
+
 .top {
     background-color: white;
     width: autopx;
@@ -5,7 +9,7 @@
 }
 
 .background {
-    margin-left: 120px;
+    margin-left: 100px;
     text-decoration: none;
     font-size: 40;
     color: cornflowerblue;
@@ -19,7 +23,7 @@ body {
     background-image: linear-gradient(to bottom, cornflowerblue, white)
 }
 
-h1 {
+.persons {
     font-size: 50px;
 }
 
@@ -80,6 +84,7 @@ span {
 
 .person:hover {
  box-shadow: 0px 0px 20px 7px;
+    transition: box-shadow 1000ms;
 }
 
 .inner {
@@ -164,3 +169,9 @@ button[type=submit4] {
 }
 
 html, body { margin: 0; padding: 0; } 
+
+.header {
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}

@@ -1,14 +1,17 @@
-body {
+html {
+    font-family: 'Lilita One', cursive;
+}
+
+.all {
     background-image: url("wellness1745.jpg");
 }
 
 #firsthead {
-    text-align: left;
+    font-size: 70px;
+    text-align: center;
     color: white;
-    margin-top: 50px;
-    font-size: 50px;
-    margin-left: 250px;
-    font-family: "Lucida Console", Times, monospace;
+    margin-left: 400px;
+    font-family: 'Lilita One', monospace;
 }
 
 .box {
@@ -21,6 +24,8 @@ body {
     padding-top: 1px;
     margin-left: 150px;
     margin-right: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .box:hover {
@@ -34,7 +39,7 @@ body {
 }
 
 .background {
-    margin-left: 120px;
+    margin-left: 100px;
     text-decoration: none;
     font-size: 40;
     color: cornflowerblue;
@@ -74,4 +79,17 @@ html, body { margin: 0; padding: 0; }
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 5px;
+}
+
+.wt {
+    height: 200px;
+    background-color: white
+}
+
+.ti {
+    vertical-align: middle;
+}
+
+.th {
+    vertical-align: middle;
 }
